@@ -29,15 +29,15 @@
 //     }
 // });
 
-import axios from "axios";
+// import axios from "axios";
 
-export default axios.create({
-    baseURL: 'https://developer.marvel.com',
-    params: {
-        key: 'eeb21a6b38b98d64251735eb5135a3e1223b618a' // Use Access Key here
-    }
-    // headers: {
-    //     'Authorization': 'Client-ID 4KK0GFyzcZHMzT1Me-ZfW5nj9urzAttzDRu0j9O8HP8', // Access Key in the header
-    //     'Application-ID': '654666' // Application ID in the header if needed
-    // }
-});
+// export default axios.create({
+//     baseURL: 'https://developer.marvel.com',
+//     params: {
+//         key: 'eeb21a6b38b98d64251735eb5135a3e1223b618a' // Use Access Key here
+//     }
+//     // headers: {
+//     //     'Authorization': 'Client-ID 4KK0GFyzcZHMzT1Me-ZfW5nj9urzAttzDRu0j9O8HP8', // Access Key in the header
+//     //     'Application-ID': '654666' // Application ID in the header if needed
+//     // }
+// });
